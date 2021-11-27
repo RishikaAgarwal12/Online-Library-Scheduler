@@ -37,7 +37,7 @@ public class ApplicationStartup implements ApplicationListener<ApplicationReadyE
             userService.addNew(new User("Mr. Librarian", "librarian", "librarian1", Constants.ROLE_LIBRARIAN,(long)1));
             memberService.addNew(new Member(Constants.ROLE_LIBRARIAN,"librarian","librarian","librarian","Male",new Date(),new Date(),(long)1));
             userService.addNew(new User("Rishika", "Rishika", "Rishika2", Constants.MEMBER_STUDENT,(long)2));
-            memberService.addNew(new Member(Constants.ROLE_LIBRARIAN,"Rishika","Rishika","Rishika","Female",new Date(),new Date(),(long)2));
+            memberService.addNew(new Member(Constants.MEMBER_STUDENT,"Rishika","Rishika","Rishika","Female",new Date(),new Date(),(long)2));
         }
 
     }
