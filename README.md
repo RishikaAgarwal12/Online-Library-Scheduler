@@ -28,6 +28,9 @@ Library Scheduler developed in Spring Boot.
 2. For login as a Student user you may use username as 'Rishika' and password as 'Rishika2'.
 3. If Librarian add any new member then member's username will be its FirstName and password will be its FirstName+ID; here ID will be provided to member when librarian added new member. 
 
+### Add New Member
+Date format : dd-mmm-yyyy  example: 05-DEC-2000
+
 
  
 
